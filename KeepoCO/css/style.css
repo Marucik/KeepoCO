@@ -1,13 +1,104 @@
 body
 {
- background-color: #CCCCCC;	
+	background-image: url("bg.png");
+	font-family: 'Roboto', sans-serif;
+	/* Background pattern from subtlepatterns.com */
 }
 
 #container
 {
-	height: 376px;
-	width: 880px;
+	margin-top: 15px;
+	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 150px;
 }
+
+#logo
+{
+	margin-left: auto;
+	margin-right: auto;
+	height: 361px;
+	width: 300px;
+	transition: transform 0.5s;
+	margin-bottom:10px;
+}
+
+#logo:hover
+{
+	transform: scale(1.02,1.02);
+	transition: transform 0.5s;
+	cursor: pointer;
+}
+
+#logo_png
+{
+	height: 300px;
+	
+}
+
+#logo_text
+{
+	color: white;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif; 
+	font-weight: 700;
+	font-size: 45px;
+	font-variant: small-caps;
+	letter-spacing: 15px;	
+}
+
+#topbar
+{
+	margin-top: 20px;
+	height: 50px;
+}
+
+.button
+{
+	opacity: 0.5;
+	height:42px;
+	width: 192px;
+	margin-right:66px;
+	background-color:#00ADEF;
+	float: left;
+	border-radius: 21px 21px 21px 21px;
+	-moz-border-radius: 21px 21px 21px 21px;
+	-webkit-border-radius: 21px 21px 21px 21px;
+	border: 4px dashed #000000;
+	text-align: center;
+	line-height: 2.15;
+	font-weight: 700;
+	font-size:20px;
+	color: black;
+	letter-spacing: 3px;
+	transition: opacity 0.5s, transform 0.5s, color 0.5s;
+}
+
+.button:hover
+{
+	opacity: 1;
+	color: white;
+	 transform: scale(1.11,1.11);
+	 transition: opacity 0.5s, transform 0.5s, color 0.5s;
+	 cursor: pointer;
+}
+.button:last-child
+{
+	margin-right:0px;
+}
+
+#content
+{
+	
+	margin-top: 20px;
+	height: 300px;
+	width: 940px;
+	border-radius: 21px 21px 21px 21px;
+	-moz-border-radius: 21px 21px 21px 21px;
+	-webkit-border-radius: 21px 21px 21px 21px;
+	background-color:rgba(138,138,138,0.2);
+	padding: 30px;
+	color: white;
+	text-align: center;
+}
+
