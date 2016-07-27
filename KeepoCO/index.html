@@ -18,6 +18,7 @@
 			$("#logo").hide().fadeIn(800);
 			$("#topbar").hide().fadeIn(1000);
 			$("#content").hide().fadeIn(1200); 
+			$("#botbar").hide().fadeIn(1600); 
 		});
 		
 		$(document).ready(function()
@@ -25,6 +26,14 @@
 			$(".button,#logo").click(function()
 			{
 				$("#text").hide().fadeIn(600);
+			});
+		});
+		
+		$(document).ready(function()
+		{
+			$("#botbar").click(function()
+			{
+				$("#botbar").hide();
 			});
 		});
 	</script>	
@@ -50,6 +59,9 @@
 			<div id="text"></div>
 		</div>
 		
+		<div id="botbar">
+			Strona stworzona przy użyciu HTML, CSS i JS. Marcin Rakoczy &copy; 2016 [x]
+		</div>
 		
 </body> 
 

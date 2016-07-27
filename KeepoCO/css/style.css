@@ -110,4 +110,22 @@ body
 	font-size:20px;
 }
 
+#botbar
+{
+	font-size:13px;
+	opacity: 0.2;
+	height: 15px;
+	width:100%;
+	position: fixed;
+	bottom: 1px;
+	left: 0px;	
+	text-align: center;
+	background-color: rgba(49,49,49,0.8);
+	color: white;
+	
+}
+#botbar:hover
+{
+	cursor: pointer;
+}
 
