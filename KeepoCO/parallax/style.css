@@ -1,0 +1,37 @@
+
+.parallax {
+    height: 500px;
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bar {
+    background-color: #FFF;
+    height: 230px;
+}
+
+body {
+    margin: 0;
+}
+
+#ant {
+    height: 500px;
+    background-image: url(bg2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txtprl1 {
+   text-align: center;
+    line-height: 500px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 100px;
+    
+    
+}
